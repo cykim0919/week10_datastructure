@@ -12,6 +12,7 @@ int Queue::pop(){
         return -1;
     }
     int data = get(0);
+    remove(0);
 
     return data;
 }

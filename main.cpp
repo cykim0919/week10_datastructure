@@ -3,9 +3,9 @@
 #include "queue.h"
 #include "stack.h"
 #include <iostream>
+#include "linked_list.h"
 
-// TODO: T 타입을 적절한 타입으로 변경
-void print(T &list) { list.print(); }
+void print(LinkedList &list) { list.print(); }
 
 void testQueue() {
   Queue queue;
